@@ -1,0 +1,19 @@
+.DS_Store
+node_modules/
+bower_modules/
+
+# Don't track build output
+dist/
+
+# Ignore build files
+Debug/
+Release/
+bin/
+
+# Ignore user options
+*.suo
+*.user
+
+# Ignore NuGet packages
+packages/
+.vs/
