@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var sql = require('mssql');
-var connectionString = "mssql://sa:sa@svr-dev01/sanp";
+var connectionString = "mssql://sa:sa@192.168.42.6/sanp";
 
 router.get('/', function(req, res) {
   // https://www.npmjs.com/package/mssql

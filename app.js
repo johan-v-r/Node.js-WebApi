@@ -1,7 +1,6 @@
 var express = require('express');
 var app = express();
 var sql = require('mssql');
-var connectionString = "mssql://sa:sa@svr-dev01/sanp";
 
 var people = require('./routes/people');
 var addresses = require('./routes/addresses');
